@@ -13,6 +13,7 @@ on:
 env:
   FORCE_COLOR: 1
 
+
 jobs:
   lighthouse:
     name: Lighthouse
