@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #92c7ff, #e4ecff);
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: #2b2b82;
+  font-size: 2em;
+}
+
+.subtitle {
+  color: #3d3d3d;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+form {
+  background-color: #f5f8ff;
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+label, legend {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #c1d7f1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 80px;
+}
+
+fieldset {
+  border: none;
+  margin-top: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #2b2b82;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1c1c5a;
+}
